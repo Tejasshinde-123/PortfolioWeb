@@ -1,0 +1,145 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  
+  .aboutTitle h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(270deg, #DF8908 10%, #B415ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .aboutTitle hr {
+    width: 100%;
+    border: 1px solid #B415ff;
+  }
+  
+  .aboutSections {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .aboutleft p {
+    font-size: 80px;
+    color: #B415FF;
+  }
+  
+  .aboutRight {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .aboutpara {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .aboutSkills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .aboutSkill {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+  }
+  
+  .aboutSkill p {
+    min-width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .aboutSkill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #B415FF 106.28%);
+  }
+  
+  .aboutSkill:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .about {
+      margin: 40px 100px;
+      gap: 60px;
+    }
+    .aboutSections {
+      gap: 60px;
+    }
+    .aboutleft p {
+      font-size: 60px;
+    }
+    .aboutpara, .aboutSkill p {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      margin: 20px 50px;
+      gap: 40px;
+    }
+    .aboutTitle h1 {
+      font-size: 30px;
+    }
+    .aboutSections {
+      flex-direction: column;
+      gap: 40px;
+    }
+    .aboutleft p {
+      font-size: 50px;
+    }
+    .aboutpara, .aboutSkill p {
+      font-size: 16px;
+    }
+    .aboutSkill {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about {
+      margin: 10px 20px;
+      gap: 20px;
+    }
+    .aboutTitle h1 {
+      font-size: 24px;
+    }
+    .aboutSections {
+      gap: 20px;
+    }
+    .aboutleft p {
+      font-size: 40px;
+    }
+    .aboutRight {
+      gap: 20px;
+    }
+    .aboutpara, .aboutSkill p {
+      font-size: 14px;
+    }
+    .aboutSkill {
+      gap: 10px;
+    }
+  }
+  
