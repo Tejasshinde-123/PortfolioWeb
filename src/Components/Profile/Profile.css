@@ -67,7 +67,7 @@
     .connectwithprofile {
         padding: 15px 30px;
     }
-    .profileresume {
+    .profileresume a {
         padding: 13px 26px;
     }
 }
@@ -108,7 +108,7 @@
     .connectwithprofile {
         padding: 10px 20px;
     }
-    .profileresume {
+    .profileresume a {
         padding: 8px 18px;
     }
 }
